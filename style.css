@@ -45,6 +45,16 @@ img {
             border: 5px solid #555;
           }
 
+
+
+
+
+
+
+
+
+
+          /* The navigation bar */
 .navbar {
     overflow: hidden;
     background-color: #333;
@@ -53,7 +63,7 @@ img {
     width: 100%; 
   }
   
-
+  /* Links inside the navbar */
   .navbar a {
     float: left;
     display: block;
@@ -63,14 +73,13 @@ img {
     text-decoration: none;
   }
   
-
+  /* Change background on mouse-over */
   .navbar a:hover {
     background: #ddd;
     color: black;
   }
   
- 
+  /* Main content */
   .main {
-    margin-top: 30px; 
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
   }
-
